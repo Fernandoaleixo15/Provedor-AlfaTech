@@ -1,0 +1,135 @@
+/*--Topo--*/
+.limitacao-da-secao{
+    width: 100%;
+    max-width: 1024px;
+    margin:  0 auto;
+}
+.topo{
+    background-color: #2f86d6;
+}
+.menu-topo{
+    position: relative;
+    padding: 35px 0px;
+}
+.logo{
+    position: relative;
+}
+.logo img{
+    width: 80px;
+}
+.logo div{
+    position: absolute;
+    top: 0px;
+    left: 85px;
+}
+.links{
+    position: absolute;
+    top: 65px;
+    right: 0px;
+}
+.logo p{
+    color: #fff;
+    font-weight: 600;
+}
+.links a{
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+.links a:hover, .links a:focus{
+    color: red;
+}
+/*Corpo do Site*/
+.tabela-de-precos{
+    padding: 100px 0px;
+}
+.tabela-de-precos h2{
+    text-align: center;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.tabela-de-precos table{
+    margin: auto;
+}
+.celula-vazia{
+    visibility: hidden;
+}
+.celula-cabecalho{
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+    background-color: #f1f3f7;
+}
+.celula-cabecalho p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #585656;
+}
+.celula-cabecalho h2{
+    font-size: 36px;
+}
+table tbody td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+/*celulas*/
+.celulai-1{
+    background-color: #f1f3f7;
+    font-weight: 500;
+    text-align: center;
+}
+.azul{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+}
+/*Rodapé*/
+.rodape{
+    padding-top: 70px;
+    background-color: #2f86d6;
+}
+.logo-do-rodape{
+    position: relative;
+    width: 320px;
+    margin: auto;
+}
+.logo-do-rodape img{
+    width: 80px;
+}
+.logo-do-rodape div{
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+.logo-do-rodape p{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.paragrafo{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 70px;
+}
+.conteiner-copyright{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+.conteiner-copyright span{
+    color: #4e1301;
+}
